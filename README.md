@@ -8,8 +8,17 @@ Expected Output: {
 
 Describe: Bank.prototype.assignId()
 Test: return an ID
-Code: Bank.assignId(account)
+Code: newBank.assignId()
 Expected Output: 1
+
+Describe: function Account(firstName, lastName, balance)
+Test: make an object with account information
+Code: new Contact("tanya", "prado", "1234567")
+Expected Output: {
+  firstName = Tanya;
+  ...
+}
+
 
 Describe: Bank.prototype.addAccount()
 Test: add an account to the bank
